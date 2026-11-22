@@ -1,0 +1,9 @@
+{
+  "name": "cache-tax-confirm",
+  "version": "2.3.1-confirm.15",
+  "description": "cache-tax 2.3.1 by Karan Bansal, patched: a cold send is held behind a Pay and send / Dismiss card, with advice on whether to pay or hand the work to a new session, and handoff prompts to paste.",
+  "author": {
+    "name": "Karan Bansal (patched locally)"
+  },
+  "license": "MIT"
+}

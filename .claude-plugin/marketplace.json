@@ -1,0 +1,5 @@
+{
+  "name": "cache-tax-confirm",
+  "owner": { "name": "GenLI3202" },
+  "plugins": [{ "name": "cache-tax-confirm", "source": "./" }]
+}
