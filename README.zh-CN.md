@@ -16,6 +16,15 @@
 
 **不要和上游的 `cache-tax` 同时安装**：两者都注册 `/keepwarm` 和 `/cache-tax`。
 
+## 和 crab-pal 搭配最好
+
+装了 [crab-pal](https://github.com/GenLI3202/crab-pal) 之后，状态不再单占一行：它以两行小字画在 crab-pal 沙滩的左端（下图红框）。**1** 是缓存状态（`warm` 绿色，`cold` 橙色）；**2** 是保温窗口还剩多久，以及下一次保温 ping 在几分钟后。没装 crab-pal 时，它是输入框上方的一行小字（`/cache-tax display line` 可以挪到输入框下面）。
+
+![沙滩上的状态，星空夜](docs/images/cachetax-dark.png)
+![沙滩上的状态，日间](docs/images/cachetax-light.png)
+
+*图是用 crab-pal 自己的绘制代码，加上本 mod 画状态的同一张小图渲染的，会话名是虚构的。生成脚本在 crab-pal 的 `docs/` 里。*
+
 ## 改了什么
 
 - **拦下后可以付费发送。** 缓存冷、守卫设为 `refuse` 时，消息仍然被拦下，但输入框上方的卡片显示价格，点 **Pay and send** 就把原话作为你自己的话重新发出。带附件或 `@` 提及的消息保持上游行为（再发一次就算付费）。

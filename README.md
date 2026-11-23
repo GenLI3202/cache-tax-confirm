@@ -16,6 +16,15 @@ A patched copy of [karanb192/cache-tax](https://github.com/karanb192/cache-tax) 
 
 **Do not install this beside the upstream `cache-tax` mod**: both register `/keepwarm` and `/cache-tax`.
 
+## Best with crab-pal
+
+With [crab-pal](https://github.com/GenLI3202/crab-pal) installed, the status does not take a row of its own: it is drawn in two lines of small type at the left end of crab-pal's beach (red boxes below). **1** is the cache state (`warm` in green, `cold` in orange); **2** is the time left in the keep-warm window and when the next keep-warm ping goes out. Without crab-pal it is one caption line above the prompt (`/cache-tax display line` moves it under the prompt).
+
+![The status on crab-pal's beach, night](docs/images/cachetax-dark.png)
+![The status on crab-pal's beach, day](docs/images/cachetax-light.png)
+
+*Rendered with crab-pal's own drawing code and the same picture this mod draws; the session names are made up. The generator is in crab-pal's `docs/`.*
+
 ## What it changes
 
 
